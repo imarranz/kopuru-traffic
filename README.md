@@ -1,7 +1,7 @@
 
 # Predicción del tráfico a la entrada de un Polígono Industrial Vasco
 
-![](https://repository-images.githubusercontent.com/741367698/c7000baf-1fa6-4cde-b86b-b62ef9ab31c7)
+![](https://repository-images.githubusercontent.com/748222615/82009552-244b-4329-b981-58fc6a5b5d07)
 
 Este proyecto se creó en respuesta al desafío de modelización lanzado por [Kopuru](https://kopuru.com/), con el objetivo de predecir el tráfico en la entrada de un polígono industrial. [Kopuru](https://kopuru.com/) planteó este [reto](https://kopuru.com/challenge/prediccion-del-trafico-a-la-entrada-del-poligono-industrial-pais-vasco/) para abordar cuestiones relacionadas con la gestión del tráfico y mejorar la eficiencia en un entorno industrial. El propósito de este repositorio es desarrollar modelos de predicción robustos y compartir soluciones relacionadas con el desafío propuesto por [Kopuru](https://kopuru.com/).
 
