@@ -1,0 +1,47 @@
+experiments:
+  kopuru_challenge_traffic:
+    target: 'Traffic Situation'
+    log_experiment: 'mlflow'
+    experiment_name: 'Traffic Situation'
+    remove_multicollinearity: False
+    multicollinearity_threshold: 0.9
+    imputation_type: 'simple'
+    numeric_imputation: 'knn'
+    train_size: 0.70
+    data_split_stratify: True
+    fold: 10
+    fold_strategy: 'stratifiedkfold'
+    log_plots:
+      - pipeline
+      - auc
+      - threshold
+      - pr
+      - confusion_matrix
+      - error
+      - class_report
+      - boundary
+      - rfe
+      - learning
+      - manifold
+      - vc
+      - dimension
+      - feature_all
+      - parameter
+      - lift
+      - gain
+      - tree
+      - ks
+    remove_outliers: True
+    outliers_method: 'iforest'
+    # Possible values are:
+    # - 'iforest': Uses sklearn's IsolationForest.
+    # - 'ee': Uses sklearn's EllipticEnvelope.
+    # - 'lof': Uses sklearn's LocalOutlierFactor.
+    feature_selection: True
+    feature_selection_method: 'univariate'
+    # Algorithm for feature selection. Choose from:
+    # - 'univariate': Uses sklearn's SelectKBest.
+    # - 'classic': Uses sklearn's SelectFromModel.
+    # - 'sequential': Uses sklearn's SequentialFeatureSelector.
+    normalize: False
+    session_id: 42
